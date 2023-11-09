@@ -81,16 +81,5 @@ return (
   );
 }
 
-function todos({ todos }) {
-  return (
-    <ul>
-      {todos.map((todo, index) => (
-        <li key={index}>{todo.text}</li>
-      ))}
-    </ul>
-  );
-}
-
-
 export default App;
 
